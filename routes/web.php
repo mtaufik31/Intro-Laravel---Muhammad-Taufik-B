@@ -12,5 +12,13 @@ Route::get('/register', function () {
     return view('register');
 });
 
+Route::get('/table', function () {
+    return view('table');
+});
+
+Route::get('/data-tables', function () {
+    return view('data-tables');
+});
+
 Route::post('/welcome', [AuthController::class, 'register']);
 Route::get('/welcome', [AuthController::class, 'showWelcome']);

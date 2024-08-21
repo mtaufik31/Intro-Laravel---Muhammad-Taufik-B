@@ -14,7 +14,7 @@
     <p><b>Nationality:</b> {{ $nationality }}</p>
     <p><b>Languages Spoken:</b> {{ $language }}</p>
     <p><b>Bio:</b> {{ $bio }}</p>
-
+`
     <p>Kembali ke halaman sebelumnya <a href="/">disini &laquo</a></p>
 </body>
 </html>
