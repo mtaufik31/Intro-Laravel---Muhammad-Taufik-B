@@ -1,6 +1,9 @@
-@extends('layout.layout')
+<x-layout>
 
-@section('content')
+    <x-slot:title>
+        <h1>Data Table</h1>
+    </x-slot:title>
+
     <div class="card">
         <div class="card-header">
             <h3 class="card-title">DataTable with default features</h3>
@@ -439,4 +442,4 @@
         </div>
         <!-- /.card-body -->
     </div>
-@endsection
+</x-layout>

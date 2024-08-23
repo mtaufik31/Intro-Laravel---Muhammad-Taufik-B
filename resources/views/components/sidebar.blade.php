@@ -60,6 +60,12 @@
                   <p>DataTables</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="/cast" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>table cast</p>
+                </a>
+              </li>
         
             </ul>
           </li>

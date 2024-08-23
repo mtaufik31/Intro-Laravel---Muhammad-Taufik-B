@@ -17,7 +17,7 @@
 <div class="wrapper">
     
 
- <x-navbar></x-navbar>
+ <x-navbar></x-navbar>z
 
   <x-sidebar></x-sidebar>
 
@@ -28,20 +28,19 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1>Table</h1>
+                        {{$title}}
                     </div>
                 </div>
             </div><!-- /.container-fluid -->
             <!-- Main content -->
         <section class="content">
-            @yield('content')
+            {{$slot}}
         </section>
         <!-- /.content -->
         </section>
     </div>
         
   <!-- /.content-wrapper -->
-
   <x-footer></x-footer>
 
   <!-- Control Sidebar -->

@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('peran', function (Blueprint $table) {
-            $table->id();
+            $table->id();   
             $table->foreignId("film_id")->constrained();
             $table->foreignId("cast_id")->constrained(
                 table: 'cast' , indexName: 'cast_id'
